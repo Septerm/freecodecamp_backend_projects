@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>URL Shortener</title>
+</head>
+<body>
+    
+    
+    <h1>URL Shortener Microservice</h1>
+    <h2>Short URL Creation</h2>
+    <p id="Example">Example: POST [project_url]/api/shorturl - https://www.youtube.com</p>
+
+    <main>
+        <section>
+            <form action="/api/shorturl" method="POST">
+                <fieldset>
+                    <legend>URL Shortener</legend>
+                    <label for="url">URL:</label>  
+                    <input id="url" type="text" name="url" placeholder="https://www.google.com">
+                    
+                    <input type="submit" value="POST URL">
+                    
+                </fieldset>
+            </form>
+        </section>
+
+        <h2>Example Usage</h2>
+        <a href="http://localhost:3500/api/shorturl/1">[this_project_url]/api/shorturl/1</a>
+
+        <h2>Example Usage</h2>
+        <p>https://www.youtube.com</p>
+        
+    </main>
+
+    <footer>By <a href="https://www.linkedin.com/in/garion-charles/">Garion Charles</a></footer>
+    
+</body>
+</html>

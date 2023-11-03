@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-top: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    
+}
+
+fieldset {
+    padding: 1rem 6rem;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+footer {
+    margin-top: 1rem;;
+}
+
+#Example {
+    background-color: rgb(250, 246, 246);
+}
+
+a {
+    color: rgb(84, 184, 234);
+}

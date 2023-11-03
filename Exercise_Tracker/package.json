@@ -1,0 +1,22 @@
+{
+  "name": "exercise_tracker",
+  "version": "1.0.0",
+  "description": "Tracks Users exercise logs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev":  "nodemon server"
+  },
+  "keywords": [],
+  "author": "Garion Charles",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

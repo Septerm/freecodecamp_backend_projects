@@ -1,0 +1,19 @@
+{
+  "name": "time_stamp_microservice",
+  "version": "1.0.0",
+  "description": "Gives the date and its unix code",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Garion Charles",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
